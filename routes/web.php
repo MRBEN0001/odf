@@ -14,7 +14,7 @@ Route::get('/', function () {
     $teams = Team::latest()->take(4)->get(); // 👈 get only 4
 
     return view('welcome', compact('teams'));
-});
+})->name('home');
 
 Route::get('/about-us', function () {
     return view('about');

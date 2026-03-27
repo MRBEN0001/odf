@@ -235,7 +235,7 @@
                                         </li>
                                          <li class="navbar__item nav-fade">
                                             <a class=" dropdown-label-alter"
-                                                href="#event">Upcoming Events</a>
+                                                href="{{ route('home') }}#event">Upcoming Events</a>
                                         </li>
                                         <li class="navbar__item nav-fade">
                                             <a class=" dropdown-label-alter"
@@ -1023,6 +1023,34 @@ $(document).ready(function () {
         }
     });
 
+});
+</script>
+
+
+
+<script>
+window.addEventListener("load", function () {
+    if (window.location.hash) {
+
+        const id = window.location.hash;
+        const target = document.querySelector(id);
+
+        if (target) {
+            // Force scroll AFTER everything (images, sliders, AOS)
+            setTimeout(() => {
+
+                const navbarOffset = 120; // adjust if needed
+
+                const top = target.offsetTop - navbarOffset;
+
+                window.scrollTo({
+                    top: top,
+                    behavior: "smooth"
+                });
+
+            }, 800); // longer delay = more reliable with heavy templates
+        }
+    }
 });
 </script>
 </body>
