@@ -103,6 +103,14 @@
     box-shadow: none !important;
 }
 
+
+/* smooth scroll */
+#event {
+    scroll-behavior: smooth;
+}
+
+
+
         </style>
 
 
@@ -225,10 +233,15 @@
                                         <li class="navbar__item nav-fade">
                                             <a class=" dropdown-label-alter" href="{{ url('/about-us') }}">About Us</a>
                                         </li>
+                                         <li class="navbar__item nav-fade">
+                                            <a class=" dropdown-label-alter"
+                                                href="#event">Upcoming Events</a>
+                                        </li>
                                         <li class="navbar__item nav-fade">
                                             <a class=" dropdown-label-alter"
                                                 href="{{ url('/team') }}">Our Team </a>
                                         </li>
+                                       
                                         <li class="navbar__item nav-fade">
                                             <a class=" dropdown-label-alter"
                                                 href="{{ url('/beneficiaries') }}">Beneficiaries</a>
@@ -336,9 +349,11 @@
             <div class="mobile-menu__cta nav-fade d-block d-md-none">
                
                
-               <a href="{{ url('/admin/login') }}" style=" margin-bottom: 1rem; " class="btn--secondary">Admin <i class="fa-solid fa-arrow-right"></i></a>
             
-               <a href="{{ route('donate') }}" class="btn--primary mb-2">Donate Now <i class="fa-solid fa-arrow-right"></i></a>
+
+               <a href="{{ route('donate') }}  " style=" margin-bottom: 1rem; " class="btn--secondary">Donate Now  <i class="fa-solid fa-arrow-right"></i></a>
+
+               <a href="{{ url('/admin/login') }}" class="btn--primary mb-2">Admin<i class="fa-solid fa-arrow-right"></i></a>
 
               </div>
               
@@ -754,8 +769,10 @@
             <div class="whatsapp-support-message" id="whatsappSupportMessage">
                 <button type="button" class="whatsapp-support-close" aria-label="Close support message">&times;</button>
                 <p>
-                    Need help or want to <strong>donate to support the poor</strong>?<br>
-                    Chat with us on WhatsApp and ask any question.
+                     <strong>
+                     Click to chat our 24 hours support for any question.<br>
+                     Donate to save lives.</strong>
+                    
                 </p>
             </div>
         </div>
@@ -978,6 +995,35 @@ function copyText(id) {
 
     alert("Copied successfully!");
 }
+
+
+
+// smoot scroll
+
+
+
+
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+$(document).ready(function () {
+
+    $('a[href*="#"]').on('click', function (e) {
+
+        let target = $(this.hash);
+
+        if (target.length) {
+            e.preventDefault();
+
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top - 100
+            }, 1000);
+        }
+    });
+
+});
 </script>
 </body>
 

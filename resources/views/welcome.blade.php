@@ -1305,7 +1305,8 @@
       </section>
       <!-- ==== / faq section end ==== -->
       <!-- ==== event section start ==== -->
-      <section class="event">
+      
+      <section id="event" class="event">
          <div class="container">
             <div class="row justify-content-center">
                <div class="col-12 col-md-8 col-xl-7">
