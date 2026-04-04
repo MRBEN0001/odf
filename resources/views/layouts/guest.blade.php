@@ -309,8 +309,8 @@
                                         <a href="{{ route('donate') }}" class="btn--secondary d-none d-md-flex">Donate Now <i
                                             class="fa-solid fa-arrow-right"></i></a> 
                                             
-                                            <a href="{{ url('/admin/login') }}" class="btn--secondary d-none d-md-flex">Admin <i
-                                                class="fa-solid fa-arrow-right"></i></a>
+                                            {{-- <a href="{{ url('/admin/login') }}" class="btn--secondary d-none d-md-flex">Admin <i
+                                                class="fa-solid fa-arrow-right"></i></a> --}}
                                     </div>
                                     <button class="open-offcanvas-nav d-flex d-xl-none"
                                         aria-label="toggle mobile menu" title="open offcanvas menu">
@@ -353,7 +353,7 @@
 
                <a href="{{ route('donate') }}  " style=" margin-bottom: 1rem; " class="btn--secondary">Donate Now  <i class="fa-solid fa-arrow-right"></i></a>
 
-               <a href="{{ url('/admin/login') }}" class="btn--primary mb-2">Admin<i class="fa-solid fa-arrow-right"></i></a>
+               {{-- <a href="{{ url('/admin/login') }}" class="btn--primary mb-2">Admin<i class="fa-solid fa-arrow-right"></i></a> --}}
 
               </div>
               
