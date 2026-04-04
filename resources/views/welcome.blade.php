@@ -10,7 +10,7 @@
                      <div class="swiper-wrapper">
                         <div class="swiper-slide">
                            <div class="banner-three__content">
-                              <span class="sub-title"><i class="icon-donation"></i>Start donating to the poor
+                              <span class="sub-title"><i class="icon-donation"></i>{{config('app.name')}}
                                  </span>
                               <h1 class="title-animation">We Are non <br>
                                  profit charity <span class="bottom-line">World</span>
@@ -31,7 +31,7 @@
                         </div>
                         <div class="swiper-slide">
                            <div class="banner-three__content">
-                              <span class="sub-title"><i class="icon-donation"></i>Start donating to save lifes
+                              <span class="sub-title"><i class="icon-donation"></i>{{config('app.name')}}
                                  </span>
                               <h1 class="title-animation">Bringing Hope to <br>
                                  better <span class="bottom-line">Ovoko people</span>
@@ -52,7 +52,7 @@
                         </div>
                         <div class="swiper-slide">
                            <div class="banner-three__content">
-                              <span class="sub-title"><i class="icon-donation"></i>Make a difference with your donation.
+                              <span class="sub-title"><i class="icon-donation"></i>{{config('app.name')}}
                                  </span>
                               <h1 class="title-animation"> Empowering Lives<br>
                                 and Building a<span class="bottom-line">Stronger</span>

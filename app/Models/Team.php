@@ -10,6 +10,7 @@ class Team extends Model
         'image',
         'name',
         'position',
-        'whatsapp',
+        'bio',
+        'whatsapp'
     ];
 }
