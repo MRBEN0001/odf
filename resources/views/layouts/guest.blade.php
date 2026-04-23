@@ -171,23 +171,8 @@
                                         <p><a href="tel:2305-587-3407"><i class="fa-solid fa-phone"></i>
                                             +234 806 864 9887</a>
                                         </p>
-                                        <div class="social">
-                                            <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook" title="Facebook">
-                                                <i class="fa-brands fa-facebook-f"></i>
-                                             </a>
-                                          
-                                             <a href="https://www.youtube.com/" target="_blank" aria-label="visit our youtube" title="YouTube">
-                                                <i class="fa-brands fa-youtube"></i>
-                                             </a>
-                                          
-                                             <a href="https://www.instagram.com/" target="_blank" aria-label="visit our instagram" title="Instagram">
-                                                <i class="fa-brands fa-instagram"></i>
-                                             </a>
-                                          
-                                             <a href="https://x.com/" target="_blank" aria-label="visit our x account" title="X">
-                                                <i class="fa-brands fa-x-twitter"></i>
-                                             </a>
-                                        </div>
+                                        @include('layouts.includes.socials')
+
                                     </div>
                                 </div>
                             </div>
@@ -357,23 +342,8 @@
 
               </div>
               
-              <div class="social">
-                <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook" title="Facebook">
-                   <i class="fa-brands fa-facebook-f"></i>
-                </a>
-             
-                <a href="https://www.youtube.com/" target="_blank" aria-label="visit our youtube" title="YouTube">
-                   <i class="fa-brands fa-youtube"></i>
-                </a>
-             
-                <a href="https://www.instagram.com/" target="_blank" aria-label="visit our instagram" title="Instagram">
-                   <i class="fa-brands fa-instagram"></i>
-                </a>
-             
-                <a href="https://x.com/" target="_blank" aria-label="visit our x account" title="X">
-                   <i class="fa-brands fa-x-twitter"></i>
-                </a>
-             </div>
+                          @include('layouts.includes.socials')
+
          </nav>
       </div>
       <div class="mobile-menu__backdrop"></div>
@@ -437,23 +407,8 @@
                   </a>
                </div>
             </div>
-            <div class="social">
-              <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook" title="Facebook">
-                 <i class="fa-brands fa-facebook-f"></i>
-              </a>
-           
-              <a href="https://www.youtube.com/" target="_blank" aria-label="visit our youtube" title="YouTube">
-                 <i class="fa-brands fa-youtube"></i>
-              </a>
-           
-              <a href="https://www.instagram.com/" target="_blank" aria-label="visit our instagram" title="Instagram">
-                 <i class="fa-brands fa-instagram"></i>
-              </a>
-           
-              <a href="https://x.com/" target="_blank" aria-label="visit our x account" title="X">
-                 <i class="fa-brands fa-x-twitter"></i>
-              </a>
-           </div>
+            @include('layouts.includes.socials')
+
          </div>
       </div>
       <div class="off-canvas-backdrop"></div>
@@ -574,23 +529,8 @@
                           <li><a href="privacy-policy.html">Privacy Policy</a></li>
                        </ul> --}}
                             </div>
-                            <div class="social">
-                                <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook" title="Facebook">
-                                   <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                             
-                                <a href="https://www.youtube.com/channel/UCRBWbp4vtcySU9QBeVwEbhw" target="_blank" aria-label="visit our youtube" title="YouTube">
-                                   <i class="fa-brands fa-youtube"></i>
-                                </a>
-                             
-                                <a href="https://www.instagram.com/" target="_blank" aria-label="visit our instagram" title="Instagram">
-                                   <i class="fa-brands fa-instagram"></i>
-                                </a>
-                             
-                                <a href="https://x.com/" target="_blank" aria-label="visit our x account" title="X">
-                                   <i class="fa-brands fa-x-twitter"></i>
-                                </a>
-                             </div>
+                            @include('layouts.includes.socials')
+
                         </div>
                     </div>
                 </div>
@@ -954,7 +894,48 @@
     <!-- jquery -->
     <script src="{{ asset('assets/js/jquery-3.7.1.min.js') }}"></script>
     <!-- bootstrap five js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script>
+        window.addEventListener("load", function () {
+        
+            document.querySelectorAll('a[href*="#"]').forEach(function(link) {
+                link.addEventListener("click", function () {
+        
+                    setTimeout(function () {
+        
+                        // Try Bootstrap collapse
+                        let navbar = document.querySelector('.navbar-collapse');
+        
+                        if (navbar && navbar.classList.contains('show')) {
+                            let instance = bootstrap.Collapse.getInstance(navbar);
+                            if (!instance) {
+                                instance = new bootstrap.Collapse(navbar);
+                            }
+                            instance.hide();
+                        }
+        
+                        // FORCE close any mobile menu (covers custom themes)
+                        document.querySelectorAll('.navbar-collapse, .menu, .mobile-menu, .main-menu').forEach(function(el){
+                            el.classList.remove('show', 'active', 'open');
+                            el.style.display = 'none';
+                        });
+        
+                        // Remove overlay if exists
+                        document.querySelectorAll('.offcanvas-backdrop, .menu-backdrop').forEach(function(el){
+                            el.remove();
+                        });
+        
+                        document.body.classList.remove('modal-open');
+        
+                    }, 200);
+        
+                });
+            });
+        
+        });
+        </script>
     <!-- nice select js -->
     <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
     <!-- magnific popup js -->

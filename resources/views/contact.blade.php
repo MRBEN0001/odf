@@ -69,24 +69,8 @@
                      </div>
                      <div class="content">
                         <h6>Social</h6>
-                        <div class="social">
-                           <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook"
-                              title="facebook">
-                              <i class="fa-brands fa-facebook-f"></i>
-                           </a>
-                           <a href="https://vimeo.com/" target="_blank" aria-label="share us on vimeo"
-                              title="vimeo">
-                              <i class="fa-brands fa-vimeo-v"></i>
-                           </a>
-                           <a href="https://x.com/" target="_blank" aria-label="share us on twitter"
-                              title="twitter">
-                              <i class="fa-brands fa-twitter"></i>
-                           </a>
-                           <a href="https://www.linkedin.com/" target="_blank" aria-label="share us on linkedin"
-                              title="linkedin">
-                              <i class="fa-brands fa-linkedin-in"></i>
-                           </a>
-                        </div>
+                        @include('layouts.includes.socials')
+
                      </div>
                   </div>
                </div>
