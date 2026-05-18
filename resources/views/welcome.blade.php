@@ -248,11 +248,11 @@
                   <div class="donation-future__content">
                      <div class="section__content" data-aos="fade-up" data-aos-duration="1000">
                         <span class="sub-title"><i class="icon-donation"></i>Start donating to save lifes</span>
-                        <h2 class="title-animation">Building A Better <span>Future</span>
-                           Together By Donations
+                        <h2 class="title-animation">Click the <span>play button</span> to watch
+                           {{-- Together By Donations --}}
                         </h2>
                         <div class="video-btn-wrapper">
-                           <a href="https://www.youtube.com/watch?v=RvreULjnzFo" target="_blank" title="video Player"
+                           <a href="https://www.youtube.com/watch?v=vqg4LhUGg4U" target="_blank" title="video Player"
                               class="open-video-popup">
                               <i class="icon-play"></i>
                            </a>

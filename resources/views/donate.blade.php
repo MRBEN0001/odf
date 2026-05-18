@@ -152,13 +152,13 @@
             <div class="donation-box">
                <h5>Bank Transfer</h5>
 
-               <p><strong>Bank Name:</strong> Your Bank Name</p>
-               <p><strong>Account Name:</strong> Ovoko DevelopmentFoundation</p>
+               <p><strong>Bank Name:</strong> Fidelity Bank</p>
+               <p><strong>Account Name:</strong> Ovoko Development Foundation</p>
 
                <!-- IMPORTANT: ID added here -->
                <p>
                   <strong>Account Number:</strong>
-                  <span id="bankNumber">0123456789</span>
+                  <span id="bankNumber">4110152001</span>
                </p>
 
                <button onclick="copyText('bankNumber')" class="copy-btn">
@@ -173,7 +173,7 @@
                <h5>Bitcoin (BTC)</h5>
 
                <p id="btcAddress">
-                  bc1qexamplebitcoinaddress1234567890
+               bc1qn5fjy06cwt5v3gltpwjw7rlckw9454nuctzlj6
                </p>
 
                <button onclick="copyText('btcAddress')" class="copy-btn">

@@ -157,8 +157,8 @@
                         <div class="cause__slider-inner">
                            <div class="video__slider-single">
                               <div class="thumb">
-                                 <iframe 
-                                    src="https://www.youtube.com/embed/UnvBFcO3Vww" 
+                                 <iframe  
+                                    src="https://www.youtube.com/embed/gQNWEfPtHks" 
                                     title="YouTube video player" 
                                     frameborder="0" 
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -167,7 +167,7 @@
                                  <div class="video-overlay" onclick="this.style.display='none'"></div>
                               </div>
                               <div class="content">
-                                 <p>Video Test 1 - Beneficiary Story</p>
+                                 {{-- <p>Video Test 1 - Beneficiary Story</p> --}}
                               </div>
                            </div>
                         </div>
@@ -179,7 +179,7 @@
                            <div class="video__slider-single">
                               <div class="thumb">
                                  <iframe 
-                                    src="https://www.youtube.com/embed/mJtOxawILJk" 
+                                    src="https://www.youtube.com/embed/gnrNPowz09s" 
                                     title="YouTube Short"
                                     frameborder="0" 
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -188,14 +188,14 @@
                                  <div class="video-overlay" onclick="this.style.display='none'"></div>
                               </div>
                               <div class="content">
-                                 <p>Your First Video Short</p>
+                                 {{-- <p>Your First Video Short</p> --}}
                               </div>
                            </div>
                         </div>
                      </div>
 
                      <!-- Video Slide 3 -->
-                     <div class="swiper-slide">
+                     {{-- <div class="swiper-slide">
                         <div class="cause__slider-inner">
                            <div class="video__slider-single">
                               <div class="thumb">
@@ -213,7 +213,7 @@
                               </div>
                            </div>
                         </div>
-                     </div>
+                     </div> --}}
 
                   </div>
 
