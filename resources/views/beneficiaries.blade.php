@@ -87,7 +87,9 @@
    <div class="container">
       <div class="row">
          <div class="common-banner__content text-center">
-            <span class="sub-title"><i class="icon-donation"></i>Start donating to the poor </span>
+            <span class="sub-title"><i class="icon-donation"></i>
+               {{-- Start donating to the poor  --}}
+            </span>
             <h2 class="title-animation">Beneficiaries</h2>
          </div>
       </div>

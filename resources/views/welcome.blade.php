@@ -151,7 +151,7 @@
                      </div>
                      <div class="overview__single overview__right">
                         <span>Healtcare</span>
-                        <h4><a href="cause-details.html">Water For All Children, America</a></h4>
+                        <h4><a href="cause-details.html">Water For All Children</a></h4>
                         <p>Charity is the act of extending love and kindness to others which is a conscious act
                            but the decision is made by the heart,
                         </p>
@@ -187,14 +187,15 @@
                <div class="col-12 col-lg-7">
                   <div class="difference-three__content">
                      <div class="section__content">
-                        <span class="sub-title"><i class="icon-donation"></i>Start donating to the poor
+                        <span class="sub-title"><i class="icon-donation"></i>
+                           {{-- Start donating to the poor --}}
                         </span>
                       <h2 class="title-animation">
-   <span>Give</span> Today, Change a Life Tomorrow
+   <span>Together</span> we can Change a lives
 </h2>
 
 <p>
-   No contribution is too small. Together, we can bring relief, empower communities, 
+   Together, we can bring relief, empower communities, 
    and create lasting impact for a better future.
 </p>
                      </div>
@@ -203,9 +204,10 @@
                            <q>
                            
                         
-                           <span> Your support brings hope to the   hopeless and strength to the weak. 
-                           </span>
-                               Join us in making a meaningful difference in the lives of others.
+                           <span> 
+We maintain strong governance systems, financial controls, and reporting
+mechanisms to ensure responsible resource management.                           </span>
+                               Join us in making a meaningful difference in the life of others.
 
                               </q>
                         </blockquote>
@@ -247,7 +249,9 @@
                <div class="col-12 col-lg-6 col-xl-7">
                   <div class="donation-future__content">
                      <div class="section__content" data-aos="fade-up" data-aos-duration="1000">
-                        <span class="sub-title"><i class="icon-donation"></i>Start donating to save lifes</span>
+                        <span class="sub-title"><i class="icon-donation"></i>
+                           {{-- Start donating to save lifes --}}
+                        </span>
                         <h2 class="title-animation">Click the <span>play button</span> to watch
                            {{-- Together By Donations --}}
                         </h2>
@@ -287,7 +291,9 @@
                         <span class="donation-amount">$10000</span>
                      </div>
                      <div class="cta">
-                        <a href="{{ route('donate') }}" class="btn--primary">Donate Now <i class="icon-heart"></i></a>
+                        <a href="{{ route('donate') }}" class="btn--primary">
+                           {{-- Donate Now  --}}
+                           <i class="icon-heart"></i></a>
                      </div>
                   </div>
                </div>
@@ -305,8 +311,10 @@
             <div class="row gutter-30 align-items-center">
                <div class="col-12 col-md-8 col-xl-7">
                   <div class="section__header">
-                     <span class="sub-title"><i class="icon-donation"></i>Start donating to save lifes</span>
-                     <h2 class="title-animation">Help & <span>donate</span> to save lifes
+                     <span class="sub-title"><i class="icon-donation"></i>
+                        {{-- Start donating to save lifes --}}
+                     </span>
+                     {{-- <h2 class="title-animation">Help & <span>donate</span> to save lifes --}}
                      </h2>
                   </div>
                </div>
@@ -367,7 +375,9 @@
                                        </div>
                                        <div class="cause__cta">
                                           <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">Donate Now</a>
+                                             class="btn--secondary">
+                                             {{-- Donate Now --}}
+                                          </a>
                                        </div>
                                     </div>
                                  </div>
@@ -412,7 +422,9 @@
                                        </div>
                                        <div class="cause__cta">
                                           <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">Donate Now</a>
+                                             class="btn--secondary">
+                                             {{-- Donate Now --}}
+                                          </a>
                                        </div>
                                     </div>
                                  </div>
@@ -457,7 +469,9 @@
                                        </div>
                                        <div class="cause__cta">
                                           <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">Donate Now</a>
+                                             class="btn--secondary">
+                                             {{-- Donate Now --}}
+                                          </a>
                                        </div>
                                     </div>
                                  </div>
@@ -502,7 +516,9 @@
                                        </div>
                                        <div class="cause__cta">
                                           <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">Donate Now</a>
+                                             class="btn--secondary">
+                                             {{-- Donate Now --}}
+                                          </a>
                                        </div>
                                     </div>
                                  </div>
@@ -547,7 +563,9 @@
                                        </div>
                                        <div class="cause__cta">
                                           <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">Donate Now</a>
+                                             class="btn--secondary">
+                                             {{-- Donate Now --}}
+                                          </a>
                                        </div>
                                     </div>
                                  </div>
@@ -592,7 +610,9 @@
                                        </div>
                                        <div class="cause__cta">
                                           <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">Donate Now</a>
+                                             class="btn--secondary">
+                                             {{-- Donate Now --}}
+                                          </a>
                                        </div>
                                     </div>
                                  </div>
@@ -637,7 +657,9 @@
                                        </div>
                                        <div class="cause__cta">
                                           <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">Donate Now</a>
+                                             class="btn--secondary">
+                                             {{-- Donate Now --}}
+                                          </a>
                                        </div>
                                     </div>
                                  </div>
@@ -682,7 +704,9 @@
                                        </div>
                                        <div class="cause__cta">
                                           <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">Donate Now</a>
+                                             class="btn--secondary">
+                                             {{-- Donate Now --}}
+                                          </a>
                                        </div>
                                     </div>
                                  </div>
@@ -705,7 +729,9 @@
       <div class="row justify-content-center">
          <div class="col-12 col-lg-10 col-xl-6">
             <div class="section__header text-center" data-aos="fade-up" data-aos-duration="1000">
-               <span class="sub-title"><i class="icon-donation"></i>Start donating to the poor</span>
+               <span class="sub-title"><i class="icon-donation"></i>
+                  {{-- Start donating to the poor --}}
+               </span>
                <h2 class="title-animation">Meet Our 
                   <span>Team</span> members
                </h2>
@@ -775,10 +801,11 @@
                         <div class="row gutter-30 align-items-center">
                            <div class="col-12 col-lg-8 col-xxl-7">
                               <div class="section__header mb-0">
-                                 <span class="sub-title"><i class="icon-donation"></i>Start donating poor
-                                    people</span>
-                                 <h2 class="title-animation">Helping each other can
-                                    make the <span>world</span> better
+                                 <span class="sub-title"><i class="icon-donation"></i>
+                                    {{-- Start donating poor
+                                    people --}}
+                                 </span>
+                                 <h2 class="title-animation"> <span>KEY</span> TRENGTHS 
                                  </h2>
                               </div>
                            </div>
@@ -803,11 +830,10 @@
                                     </div>
                                  </div>
                                  <div class="help-three__content">
-                                    <h6>Choose a Cause</h6>
-                                    <p>
-                                   Select a cause you are passionate about and want to support, 
-                  from health, food, education, and more.
-                                    </p>
+                                    <h6> Strong grassroots legitimacy and community trust</h6>
+                                    {{-- <p>
+                            Strong grassroots legitimacy and community trust
+                                    </p> --}}
                                  </div>
                               </div>
                            </div>
@@ -823,10 +849,10 @@
                                     </div>
                                  </div>
                                  <div class="help-three__content">
-                                    <h6>Make a Donation</h6>
-                                    <p> Contribute any amount you can. Every donation, big or small, 
+                                    <h6>Active and resourceful diaspora network</h6>
+                                    {{-- <p> Contribute any amount you can. Every donation, big or small, 
                   helps us reach more people in need.
-                                    </p>
+                                    </p> --}}
                                  </div>
                               </div>
                            </div>
@@ -842,10 +868,10 @@
                                     </div>
                                  </div>
                                  <div class="help-three__content">
-                                    <h6>We Deliver Support</h6>
-                                    <p>Our team ensures your donation is used to provide help, 
+                                    <h6>Structured governance framework backed by a formal constitution</h6>
+                                    {{-- <p>Our team ensures your donation is used to provide help, 
                   resources, and support to those who need it most.
-                                    </p>
+                                    </p> --}}
                                  </div>
                               </div>
                            </div>
@@ -861,10 +887,10 @@
                                     </div>
                                  </div>
                                  <div class="help-three__content">
-                                    <h6>See the Impact</h6>
-                                    <p>Witness the difference your support makes in improving lives 
+                                    <h6>Proven capacity to mobilize community participation and resources</h6>
+                                    {{-- <p>Witness the difference your support makes in improving lives 
                   and building stronger communities.
-                                    </p>
+                                    </p> --}}
                                  </div>
                               </div>
                            </div>
@@ -962,7 +988,7 @@
                            <i class="icon-support-hand"></i>
                         </div>
                         <div class="counter__content">
-                           <h2><span class="odometer" data-odometer-final="40"></span><span class="prefix">+</span>
+                           <h2><span class="odometer" data-odometer-final="20"></span><span class="prefix">+</span>
                            </h2>
                            <h5>Team member</h5>
                         </div>
@@ -1021,7 +1047,8 @@
          <div class="col-12 col-md-8 col-xl-7">
             <div class="section__header text-center" data-aos="fade-up" data-aos-duration="1000">
                <span class="sub-title">
-                  <i class="icon-donation"></i>Voices of Impact
+                  <i class="icon-donation"></i>
+                  {{-- Voices of Impact --}}
                </span>
                <h2 class="title-animation">
                   What Our <span>Volunteers</span> Say About Us
@@ -1311,7 +1338,8 @@
             <div class="row justify-content-center">
                <div class="col-12 col-md-8 col-xl-7">
                   <div class="section__header text-center" data-aos="fade-up" data-aos-duration="1000">
-                     <span class="sub-title"><i class="icon-donation"></i>Start donating to the poor
+                     <span class="sub-title"><i class="icon-donation"></i>
+                        {{-- Start donating to the poor --}}
                         </span>
                      <h2 class="title-animation">Checkout our upcoming  <span>event</span> list</h2>
                   </div>
@@ -1387,7 +1415,8 @@
                <div class="col-12 col-md-10 col-xl-7">
                   <div class="contact__content">
                      <div class="section__content" data-aos="fade-up" data-aos-duration="1000">
-                        <span class="sub-title"><i class="icon-donation"></i>Start donating to the poor
+                        <span class="sub-title"><i class="icon-donation"></i>
+                           {{-- Start donating to the poor --}}
                      </span>
                         <h2 class="title-animation">Send Us <span>message</span>
                            For donation!
