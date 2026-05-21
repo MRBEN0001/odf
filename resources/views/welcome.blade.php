@@ -130,9 +130,9 @@
                         <h4>Total Raised Fund</h4>
                         <div class="cause__progress progress-bar-single">
                            <div class="cause-progress__bar">
-                              <div class="progress-bar-wrapper" data-percent="20%">
+                              <div class="progress-bar-wrapper" data-percent="5%">
                                  <div class="progress-bar">
-                                    <div class="progress-bar-percent"><span class="percent-value">20%</span>
+                                    <div class="progress-bar-percent"><span class="percent-value">10%</span>
                                     </div>
                                  </div>
                               </div>
@@ -141,7 +141,7 @@
                         <div class="cause-progress__goal">
                            <div class="goal-single">
                               <span>Raised</span>
-                              <h5>$20,000</h5>
+                              <h5>$5,000</h5>
                            </div>
                            <div class="goal-single">
                               <span>Goal</span>
@@ -151,9 +151,11 @@
                      </div>
                      <div class="overview__single overview__right">
                         <span>Healtcare</span>
-                        <h4><a href="cause-details.html">Water For All Children</a></h4>
-                        <p>Charity is the act of extending love and kindness to others which is a conscious act
-                           but the decision is made by the heart,
+                        <h4>
+Focus:                        </h4>
+                        <p>
+                           Expanding access to quality healthcare and strengthening community
+support systems.
                         </p>
                      </div>
                   </div>
@@ -191,7 +193,7 @@
                            {{-- Start donating to the poor --}}
                         </span>
                       <h2 class="title-animation">
-   <span>Together</span> we can Change a lives
+   <span>Together</span> we can Change lives.
 </h2>
 
 <p>
@@ -270,7 +272,7 @@ mechanisms to ensure responsible resource management.                           
                      <h4>Support for Food Expenses</h4>
                      <div class="cause__progress progress-bar-single">
                         <div class="cause-progress__bar">
-                           <div class="progress-bar-wrapper" data-percent="60%">
+                           <div class="progress-bar-wrapper" data-percent="5%">
                               <div class="progress-bar">
                                  <div class="progress-bar-percent"><span class="percent-value"></span>
                                  </div>
@@ -279,7 +281,7 @@ mechanisms to ensure responsible resource management.                           
                         </div>
                      </div>
                      <div class="cause-progress__goal">
-                        <p>Raised: <span class="raised">$60000</span></p>
+                        <p>Raised: <span class="raised">$5000</span></p>
                         <p>Goal: <span class="goal">$100,000</span></p>
                      </div>
                      <hr>

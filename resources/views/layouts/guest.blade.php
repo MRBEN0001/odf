@@ -710,8 +710,7 @@
                 <button type="button" class="whatsapp-support-close" aria-label="Close support message">&times;</button>
                 <p>
                      <strong>
-                     Click to chat our 24 hours support for any question.<br>
-                     Donate to save lives.</strong>
+                     Click to chat our 24 hours support for any question.</strong>
                     
                 </p>
             </div>

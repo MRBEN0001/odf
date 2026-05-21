@@ -74,11 +74,11 @@
                   </div>
 
                   <div class="team__single-content">
-                     <h6 style="text-transform: none !important;"><a href="#" style="text-transform: none !important;">{{ $team->name }}</a></h6>
+                     <h6 style="text-transform: none !important;"><a href="#" style="text-transform: none !important;">{{ strtoupper($team->name ) }}</a></h6>
                      <p style="text-transform: none !important;">{{ $team->position }}</p>
                      
                      <button class="btn btn-primary btn-sm mt-3 w-100 view-bio-btn"
-                             data-name="{{ $team->name }}"
+                             data-name="{{ strtoupper($team->name ) }}"
                              data-position="{{ $team->position }}"
                              data-image="{{ asset('storage/' . $team->image) }}"
                              data-bio="{{ $team->bio ?? '' }}"
