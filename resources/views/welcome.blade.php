@@ -764,7 +764,7 @@ mechanisms to ensure responsible resource management.                           
                </div>
 
                <div class="team__single-content">
-                  <h6>{{ $team->name }}</h6>
+                  <h6>{{ strtoupper($team->name ) }}</h6>
                   <p>{{ $team->position }}</p>
                </div>
 
