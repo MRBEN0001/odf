@@ -864,27 +864,11 @@
                     <li class="rtl">RTL Version</li>
                     <li>LTR Version</li>
                 </ul>
-                <h6>Boxed Version</h6>
-                <ul class="box-version option-box">
-                    <li class="box">Boxed</li>
-                    <li>Full width</li>
-                </ul>
-                <h6>Sticky Header</h6>
-                <ul class="header-version option-box">
-                    <li class="box">Yes</li>
-                    <li>No</li>
-                </ul>
                 <h6>Dark Verion</h6>
                 <ul class="dark-version option-box">
                     <li class="box">Yes</li>
                     <li>No</li>
                 </ul>
-                <div class="purchase-box">
-                    <p>You will find much more options for colors and styling in admin panel. This color picker is used
-                        only for demonstration purposes.
-                    </p>
-                    <a href="index.html" class="purchase-box__btn">buy now</a>
-                </div>
             </div>
         </div>
         <!-- ==== / color switcher end ==== -->

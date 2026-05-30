@@ -126,30 +126,7 @@
             <div class="row">
                <div class="col-12">
                   <div class="overview__inner" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                     <div class="overview__single overview__left">
-                        <h4>Total Raised Fund</h4>
-                        <div class="cause__progress progress-bar-single">
-                           <div class="cause-progress__bar">
-                              <div class="progress-bar-wrapper" data-percent="5%">
-                                 <div class="progress-bar">
-                                    <div class="progress-bar-percent"><span class="percent-value">10%</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="cause-progress__goal">
-                           <div class="goal-single">
-                              <span>Raised</span>
-                              <h5>$5,000</h5>
-                           </div>
-                           <div class="goal-single">
-                              <span>Goal</span>
-                              <h5>$100,000</h5>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="overview__single overview__right">
+                     <div class="overview__single overview__right overview__full">
                         <span>Healtcare</span>
                         <h4>
 Focus:                        </h4>
@@ -280,10 +257,10 @@ mechanisms to ensure responsible resource management.                           
                            </div>
                         </div>
                      </div>
-                     <div class="cause-progress__goal">
+                     {{-- <div class="cause-progress__goal">
                         <p>Raised: <span class="raised">$5000</span></p>
                         <p>Goal: <span class="goal">$100,000</span></p>
-                     </div>
+                     </div> --}}
                      <hr>
                      <div class="made-amount">
                         <span class="donation-amount">$100</span>
@@ -355,33 +332,6 @@ mechanisms to ensure responsible resource management.                           
       to ensure children grow up healthy and strong.
                                        </p>
                                     </div>
-                                    <div class="cause__slider-cta">
-                                       <div class="cause__progress progress-bar-single">
-                                          <div class="cause-progress__intro">
-                                             <p><span>Donation</span>
-                                                <span class="percent-value">85%</span>
-                                             </p>
-                                          </div>
-                                          <div class="cause-progress__bar">
-                                             <div class="progress-bar-wrapper" data-percent="85%">
-                                                <div class="progress-bar">
-                                                   <div class="progress-bar-percent">
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="cause-progress__goal">
-                                             <p>Raised: <span class="raised">$8500</span></p>
-                                             <p>Goal: <span class="goal">$1,0000</span></p>
-                                          </div>
-                                       </div>
-                                       <div class="cause__cta">
-                                          <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">
-                                             {{-- Donate Now --}}
-                                          </a>
-                                       </div>
-                                    </div>
                                  </div>
                               </div>
                            </div>
@@ -401,33 +351,6 @@ mechanisms to ensure responsible resource management.                           
                                        <p>We provide balanced meals and nutrition support to help children grow 
       strong and stay healthy.
                                        </p>
-                                    </div>
-                                    <div class="cause__slider-cta">
-                                       <div class="cause__progress progress-bar-single">
-                                          <div class="cause-progress__intro">
-                                             <p><span>Donation</span>
-                                                <span class="percent-value">90%</span>
-                                             </p>
-                                          </div>
-                                          <div class="cause-progress__bar">
-                                             <div class="progress-bar-wrapper" data-percent="90%">
-                                                <div class="progress-bar">
-                                                   <div class="progress-bar-percent">
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="cause-progress__goal">
-                                             <p>Raised: <span class="raised">$8500</span></p>
-                                             <p>Goal: <span class="goal">$1,0000</span></p>
-                                          </div>
-                                       </div>
-                                       <div class="cause__cta">
-                                          <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">
-                                             {{-- Donate Now --}}
-                                          </a>
-                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -449,33 +372,6 @@ mechanisms to ensure responsible resource management.                           
       treatment, support, and hope for a healthier future.
                                        </p>
                                     </div>
-                                    <div class="cause__slider-cta">
-                                       <div class="cause__progress progress-bar-single">
-                                          <div class="cause-progress__intro">
-                                             <p><span>Donation</span>
-                                                <span class="percent-value">75%</span>
-                                             </p>
-                                          </div>
-                                          <div class="cause-progress__bar">
-                                             <div class="progress-bar-wrapper" data-percent="75%">
-                                                <div class="progress-bar">
-                                                   <div class="progress-bar-percent">
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="cause-progress__goal">
-                                             <p>Raised: <span class="raised">$8500</span></p>
-                                             <p>Goal: <span class="goal">$1,0000</span></p>
-                                          </div>
-                                       </div>
-                                       <div class="cause__cta">
-                                          <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">
-                                             {{-- Donate Now --}}
-                                          </a>
-                                       </div>
-                                    </div>
                                  </div>
                               </div>
                            </div>
@@ -495,33 +391,6 @@ mechanisms to ensure responsible resource management.                           
                                        <p>We provide nutritious meals to children and families facing hunger, 
       ensuring no one goes to bed hungry.
                                        </p>
-                                    </div>
-                                    <div class="cause__slider-cta">
-                                       <div class="cause__progress progress-bar-single">
-                                          <div class="cause-progress__intro">
-                                             <p><span>Donation</span>
-                                                <span class="percent-value">65%</span>
-                                             </p>
-                                          </div>
-                                          <div class="cause-progress__bar">
-                                             <div class="progress-bar-wrapper" data-percent="65%">
-                                                <div class="progress-bar">
-                                                   <div class="progress-bar-percent">
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="cause-progress__goal">
-                                             <p>Raised: <span class="raised">$8500</span></p>
-                                             <p>Goal: <span class="goal">$1,0000</span></p>
-                                          </div>
-                                       </div>
-                                       <div class="cause__cta">
-                                          <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">
-                                             {{-- Donate Now --}}
-                                          </a>
-                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -543,33 +412,6 @@ mechanisms to ensure responsible resource management.                           
       the overall health and wellbeing of vulnerable children.
                                        </p>
                                     </div>
-                                    <div class="cause__slider-cta">
-                                       <div class="cause__progress progress-bar-single">
-                                          <div class="cause-progress__intro">
-                                             <p><span>Donation</span>
-                                                <span class="percent-value">85%</span>
-                                             </p>
-                                          </div>
-                                          <div class="cause-progress__bar">
-                                             <div class="progress-bar-wrapper" data-percent="85%">
-                                                <div class="progress-bar">
-                                                   <div class="progress-bar-percent">
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="cause-progress__goal">
-                                             <p>Raised: <span class="raised">$8500</span></p>
-                                             <p>Goal: <span class="goal">$1,0000</span></p>
-                                          </div>
-                                       </div>
-                                       <div class="cause__cta">
-                                          <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">
-                                             {{-- Donate Now --}}
-                                          </a>
-                                       </div>
-                                    </div>
                                  </div>
                               </div>
                            </div>
@@ -589,33 +431,6 @@ mechanisms to ensure responsible resource management.                           
                                        <p>A simple meal can restore hope. We deliver food support to those 
       struggling to meet their daily needs.
                                        </p>
-                                    </div>
-                                    <div class="cause__slider-cta">
-                                       <div class="cause__progress progress-bar-single">
-                                          <div class="cause-progress__intro">
-                                             <p><span>Donation</span>
-                                                <span class="percent-value">90%</span>
-                                             </p>
-                                          </div>
-                                          <div class="cause-progress__bar">
-                                             <div class="progress-bar-wrapper" data-percent="90%">
-                                                <div class="progress-bar">
-                                                   <div class="progress-bar-percent">
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="cause-progress__goal">
-                                             <p>Raised: <span class="raised">$8500</span></p>
-                                             <p>Goal: <span class="goal">$1,0000</span></p>
-                                          </div>
-                                       </div>
-                                       <div class="cause__cta">
-                                          <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">
-                                             {{-- Donate Now --}}
-                                          </a>
-                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -637,33 +452,6 @@ mechanisms to ensure responsible resource management.                           
       and support needed to live safe and healthy lives.
                                        </p>
                                     </div>
-                                    <div class="cause__slider-cta">
-                                       <div class="cause__progress progress-bar-single">
-                                          <div class="cause-progress__intro">
-                                             <p><span>Donation</span>
-                                                <span class="percent-value">75%</span>
-                                             </p>
-                                          </div>
-                                          <div class="cause-progress__bar">
-                                             <div class="progress-bar-wrapper" data-percent="75%">
-                                                <div class="progress-bar">
-                                                   <div class="progress-bar-percent">
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="cause-progress__goal">
-                                             <p>Raised: <span class="raised">$8500</span></p>
-                                             <p>Goal: <span class="goal">$1,0000</span></p>
-                                          </div>
-                                       </div>
-                                       <div class="cause__cta">
-                                          <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">
-                                             {{-- Donate Now --}}
-                                          </a>
-                                       </div>
-                                    </div>
                                  </div>
                               </div>
                            </div>
@@ -683,33 +471,6 @@ mechanisms to ensure responsible resource management.                           
                                        <p> We provide nutritious meals to children and families facing hunger, 
       ensuring no one goes to bed hungry.
                                        </p>
-                                    </div>
-                                    <div class="cause__slider-cta">
-                                       <div class="cause__progress progress-bar-single">
-                                          <div class="cause-progress__intro">
-                                             <p><span>Donation</span>
-                                                <span class="percent-value">65%</span>
-                                             </p>
-                                          </div>
-                                          <div class="cause-progress__bar">
-                                             <div class="progress-bar-wrapper" data-percent="65%">
-                                                <div class="progress-bar">
-                                                   <div class="progress-bar-percent">
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="cause-progress__goal">
-                                             <p>Raised: <span class="raised">$8500</span></p>
-                                             <p>Goal: <span class="goal">$1,0000</span></p>
-                                          </div>
-                                       </div>
-                                       <div class="cause__cta">
-                                          <a href="{{ route('donate') }}" aria-label="donate now" title="donate now"
-                                             class="btn--secondary">
-                                             {{-- Donate Now --}}
-                                          </a>
-                                       </div>
                                     </div>
                                  </div>
                               </div>

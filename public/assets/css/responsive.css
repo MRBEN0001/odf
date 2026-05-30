@@ -743,11 +743,18 @@
   .overview .overview__right {
     border-radius: 0px 10px 10px 0px;
   }
+  .overview .overview__full {
+    width: 100%;
+    border-radius: 10px;
+  }
   .rtl .overview .overview__single {
     border-radius: 0px 10px 10px 0px;
   }
   .rtl .overview .overview__right {
     border-radius: 10px 0px 0px 10px;
+  }
+  .rtl .overview .overview__full {
+    border-radius: 10px;
   }
   .rtl .overview .cause__progress {
     direction: ltr;
