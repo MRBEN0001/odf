@@ -65,6 +65,7 @@ class TeamResource extends Resource
             ->columns([
 
                 ImageColumn::make('image')
+                    ->disk('public')
                     ->square(),
 
                 TextColumn::make('name')
